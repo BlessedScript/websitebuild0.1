@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<title>HomePage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?fa mily=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-ship {font-size:200px}
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("img_boat3.png");
+    min-height: 90%;
+  }
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-deep-orange w3-card-2 w3-left-align w3-large w3-animate-top">
+    <li class="w3-hide-medium w3-hide-large w3-opennav w3-right w3-animate-top">
+      <a class="w3-padding-large w3-hover-black w3-large w3-deep-orange" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    </li>
+    <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-black w3-hover-white">Donate</a></li>
+    <li><a href="#" class="w3-padding-large w3-white">Home</a></li>
+    <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">About Us</a></li>
+    <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">Talks & Events</a></li>
+    <li class="w3-hide-small"><a href="#" class="w3-padding-large w3-hover-white">Contact</a></li>
+  </ul>
+  </ul>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-hide w3-hide-large w3-hide-medium">
+    <ul class="w3-navbar w3-left-align w3-large w3-deep-orange">
+      <li><a class="w3-padding-large w3-black w3-hover-white" href="#">Donate</a></li>
+      <li><a class="w3-padding-large w3-hover-white" href="#">About Us</a></li>
+      <li><a class="w3-padding-large w3-hover-white" href="#">Talks & Events</a></li>
+      <li><a class="w3-padding-large w3-hover-white" href="#">Contact</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container bgimg w3-bottombar w3-border-indigo">
+<div class="w3-display-topright w3-container w3-padding-64 w3-hide-small">
+  <a href=https://rnli.org/> <img src="rnli.png"  class="w3-hover-opacity w3-animate-right" alt="RNLI"> </a>
+</div>
+<div class="w3-display-bottomright w3-padding w3-hide-small w3-container">
+  <a href="https://www.facebook.com/rnli/" class="w3-hover-text-indigo w3-jumbo w3-animate-bottom"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.youtube.com/user/officialrnli" class="w3-hover-text-red w3-jumbo w3-animate-bottom"><i class="fa fa-youtube-play"></i></a>
+  <a href="https://twitter.com/RNLI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="w3-hover-text-light-blue w3-jumbo w3-animate-bottom"><i class="fa fa-twitter"></i></a>
+</div>
+<div class="w3-display-bottommiddle w3-padding w3-hide-large w3-hide-medium w3-container">
+  <a href="https://www.facebook.com/rnli/" class="w3-hover-text-indigo w3-xxlarge w3-animate-bottom"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.youtube.com/user/officialrnli" class="w3-hover-text-red w3-xxlarge w3-animate-bottom"><i class="fa fa-youtube-play"></i></a>
+  <a href="https://twitter.com/RNLI?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="w3-hover-text-light-blue w3-xxlarge w3-animate-bottom"><i class="fa fa-twitter"></i></a>
+</div>
+<div class="w3-display-left w3-container">
+ <span class="w3-text-indigo w3-text-shadow w3-hide-small w3-jumbo w3-animate-left" style="font-size:70px"><b>RNLI</b></span>
+ <span class="w3-text-indigo w3-text-shadow w3-hide-small w3-xxxlarge w3-animate-left" style="font-size:70px"><br>Bookham<br>and Leatherhead</b></span>   
+</div>
+<div class="w3-display-topleft w3-container w3-padding-48">
+ <h4 class="w3-text-deep-orange w3-text-shadow w3-hide-large w3-hide-medium w3-animate-left" style="font-size:12px">RNLI<br>Bookham and Leatherhead</h6>
+</div>
+<div class="w3-display-middle w3-hide-large w3-hide-medium w3-center"> 
+ <h2 class="w3-text-indigo w3-text-shadow w3-animate-right" style="font-size:35px"><b>RNLI saves lives at sea. Want to help?</b></h2>
+ <a class="w3-btn w3-ripple w3-xxlarge w3-margin-bottom w3-animate-right">How?</a>
+</div>
+  <!-- Donate button feature - currently off.
+  <button class="w3-btn w3-padding-16 w3-large w3-margin-top">Donate</button> -->
+  </header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container w3-bottombar w3-border-blue">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>What We Do</h1>
+      <h5 class="w3-padding-32">One two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three.</h5>
+
+      <p class="w3-text-indigo">One two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three.</p>
+    </div>
+
+    <div class="w3-third w3-center w3-hide-small">
+      <i class="fa fa-anchor w3-padding-64 w3-text-deep-orange w3-hide-small"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container w3-bottombar w3-border-blue">
+  <div class="w3-content">
+    <div class="w3-third w3-center  w3-hide-small">
+      <i class="fa fa-ship w3-padding-64 w3-text-deep-orange w3-margin-right"></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Volunteer To Help</h1>
+      <h5 class="w3-padding-32">One two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three.</h5>
+
+      <p class="w3-text-indigo">One two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three.</p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Third Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container ">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Souvenir Sales</h1>
+      <h5 class="w3-padding-32">One two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three.</h5>
+
+      <p class="w3-text-indigo">One two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three one two three.</p>
+    </div>
+
+    <div class="w3-third w3-center w3-hide-small">
+      <i class="fa fa-anchor w3-padding-64 w3-text-deep-orange"></i>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-opacity">
+
+<div class="w3-cell-row">
+  <div class="w3-container w3-cell w3-mobile w3-center w3-animate-bottom w3-text-white" style="width:33%">
+    <p></p>
+  </div>
+  <div class="w3-container w3-cell w3-mobile w3-center w3-animate-bottom w3-text-white" style="width:33%">
+    <a href="https://rnli.org/footer/terms-and-conditions"> <p>Terms and conditions</p></a>
+    <a href="https://rnli.org/footer/privacy-and-security"> <p>Privacy and security</p></a>
+  </div>
+  <div class="w3-container w3-cell w3-mobile w3-center w3-animate-bottom w3-text-white" style="width:33%">
+    <p></p>
+  </div>
+</div>
+<div class="w3-container w3-center">
+ <span class= "w3-small w3-hide-small w3-text-white">A charity registered in England and Wales (209603) and Scotland (SCO37736). Charity number CHY 2678 in the Republic of Ireland at West Quay Road, Poole BH15 1HZ.</span>
+  <span class= "w3-tiny w3-hide-large w3-hide-medium w3-text-white">A charity registered in England and Wales (209603) and Scotland (SCO37736). Charity number CHY 2678 in the Republic of Ireland at West Quay Road, Poole BH15 1HZ.</span>
+</div>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+</body>
+</html>
